@@ -1,0 +1,13 @@
+D:\Udemy Learning\C# OOP\DungeonsOfDoom\DungeonsOfDoom\bin\Debug\netcoreapp3.1\DungeonsOfDoom.exe
+D:\Udemy Learning\C# OOP\DungeonsOfDoom\DungeonsOfDoom\bin\Debug\netcoreapp3.1\DungeonsOfDoom.deps.json
+D:\Udemy Learning\C# OOP\DungeonsOfDoom\DungeonsOfDoom\bin\Debug\netcoreapp3.1\DungeonsOfDoom.runtimeconfig.json
+D:\Udemy Learning\C# OOP\DungeonsOfDoom\DungeonsOfDoom\bin\Debug\netcoreapp3.1\DungeonsOfDoom.runtimeconfig.dev.json
+D:\Udemy Learning\C# OOP\DungeonsOfDoom\DungeonsOfDoom\bin\Debug\netcoreapp3.1\DungeonsOfDoom.dll
+D:\Udemy Learning\C# OOP\DungeonsOfDoom\DungeonsOfDoom\bin\Debug\netcoreapp3.1\DungeonsOfDoom.pdb
+D:\Udemy Learning\C# OOP\DungeonsOfDoom\DungeonsOfDoom\obj\Debug\netcoreapp3.1\DungeonsOfDoom.csproj.AssemblyReference.cache
+D:\Udemy Learning\C# OOP\DungeonsOfDoom\DungeonsOfDoom\obj\Debug\netcoreapp3.1\DungeonsOfDoom.AssemblyInfoInputs.cache
+D:\Udemy Learning\C# OOP\DungeonsOfDoom\DungeonsOfDoom\obj\Debug\netcoreapp3.1\DungeonsOfDoom.AssemblyInfo.cs
+D:\Udemy Learning\C# OOP\DungeonsOfDoom\DungeonsOfDoom\obj\Debug\netcoreapp3.1\DungeonsOfDoom.csproj.CoreCompileInputs.cache
+D:\Udemy Learning\C# OOP\DungeonsOfDoom\DungeonsOfDoom\obj\Debug\netcoreapp3.1\DungeonsOfDoom.dll
+D:\Udemy Learning\C# OOP\DungeonsOfDoom\DungeonsOfDoom\obj\Debug\netcoreapp3.1\DungeonsOfDoom.pdb
+D:\Udemy Learning\C# OOP\DungeonsOfDoom\DungeonsOfDoom\obj\Debug\netcoreapp3.1\DungeonsOfDoom.genruntimeconfig.cache

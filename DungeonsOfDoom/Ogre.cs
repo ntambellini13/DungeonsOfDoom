@@ -4,7 +4,10 @@ using System.Text;
 
 namespace DungeonsOfDoom
 {
-    class Ogre
+    class Ogre : Monster
     {
+        public Ogre() : base(10)
+        {
+        }
     }
 }

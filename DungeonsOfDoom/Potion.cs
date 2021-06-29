@@ -4,7 +4,11 @@ using System.Text;
 
 namespace DungeonsOfDoom
 {
-    class Potion
+    class Potion : Item
     {
+        public Potion() : base("Potion")
+        {
+
+        }
     }
 }

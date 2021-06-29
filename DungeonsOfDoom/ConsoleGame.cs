@@ -23,7 +23,7 @@ namespace DungeonsOfDoom
                 DisplayWorld();
                 DisplayStats();
                 AskForMovement();
-            } while (player.Health > 0);
+            } while (player.IsAlive);
 
             GameOver();
         }
@@ -43,10 +43,14 @@ namespace DungeonsOfDoom
                     world[x, y] = new Room();
 
                     int percentage = random.Next(0, 100);
-                    if (percentage < 10)
-                        world[x, y].Monster = new Monster(30);
+                    if (percentage < 5)
+                        world[x, y].Monster = new Ogre();
+                    else if (percentage < 10)
+                        world[x, y].Monster = new Skeleton();
+                    else if (percentage < 15)
+                        world[x, y].Item = new Potion();
                     else if (percentage < 20)
-                        world[x, y].Item = new Item("Sword");
+                        world[x, y].Item = new Sword();
                 }
             }
         }
@@ -74,6 +78,10 @@ namespace DungeonsOfDoom
         private void DisplayStats()
         {
             Console.WriteLine($"Health: {player.Health}");
+            foreach (var item in player.Backpack)
+            {
+                Console.WriteLine(item.Name);
+            }
         }
 
         private void AskForMovement()
@@ -98,6 +106,18 @@ namespace DungeonsOfDoom
             {
                 player.X = newX;
                 player.Y = newY;
+
+                EnterRoom();
+            }
+        }
+
+        private void EnterRoom()
+        {
+            Room currentRoom = world[player.X, player.Y];
+            if (currentRoom.Item != null)
+            {
+                player.Backpack.Add(currentRoom.Item);
+                currentRoom.Item = null; // remove item from the room after it is picked up
             }
         }
 

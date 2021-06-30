@@ -118,10 +118,15 @@ namespace DungeonsOfDoom
 
             if (monster != null)
             {
-                monster.Attack(player);
+                AttackResult result = monster.Attack(player);
+                Console.WriteLine($"Monster damaged player by {result.Damage}");
+                Console.ReadKey();
+
 
                 if (player.IsAlive)
                     player.Attack(monster);
+                    Console.WriteLine($"Player damaged monster by {result.Damage}");
+                    Console.ReadKey();
 
                 if (!monster.IsAlive)
                     currentRoom.Monster = null;

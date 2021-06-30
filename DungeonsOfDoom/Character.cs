@@ -11,9 +11,12 @@ namespace DungeonsOfDoom
             Health = health;
         }
 
-        public virtual void Attack(Character opponent)
+        public virtual AttackResult Attack(Character opponent)
         {
-            opponent.Health -= 10;
+            int damage = 10;
+            opponent.Health -= damage;
+
+            return new AttackResult(this, opponent, damage);
         }
         public int Health { get; set; }
         public bool IsAlive { get { return Health > 0; } }

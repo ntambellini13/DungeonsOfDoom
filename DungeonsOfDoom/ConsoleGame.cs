@@ -90,7 +90,7 @@ namespace DungeonsOfDoom
             int newY = player.Y;
             bool isValidKey = true;
 
-            ConsoleKeyInfo keyInfo = Console.ReadKey();
+            ConsoleKeyInfo keyInfo = Console.ReadKey(true);
             switch (keyInfo.Key)
             {
                 case ConsoleKey.RightArrow: newX++; break;
@@ -120,13 +120,13 @@ namespace DungeonsOfDoom
             {
                 AttackResult result = monster.Attack(player);
                 Console.WriteLine($"Monster damaged player by {result.Damage}");
-                Console.ReadKey();
+                Console.ReadKey(true);
 
 
                 if (player.IsAlive)
                     player.Attack(monster);
                     Console.WriteLine($"Player damaged monster by {result.Damage}");
-                    Console.ReadKey();
+                    Console.ReadKey(true);
 
                 if (!monster.IsAlive)
                     currentRoom.Monster = null;

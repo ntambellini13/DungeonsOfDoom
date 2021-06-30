@@ -114,7 +114,20 @@ namespace DungeonsOfDoom
         private void EnterRoom()
         {
             Room currentRoom = world[player.X, player.Y];
-            if (currentRoom.Item != null)
+            Monster monster = currentRoom.Monster;
+
+            if (monster != null)
+            {
+                monster.Attack(player);
+
+                if (player.IsAlive)
+                    player.Attack(monster);
+
+                if (!monster.IsAlive)
+                    currentRoom.Monster = null;
+            }
+
+            if (player.IsAlive && currentRoom.Item != null)
             {
                 player.Backpack.Add(currentRoom.Item);
                 currentRoom.Item = null; // remove item from the room after it is picked up

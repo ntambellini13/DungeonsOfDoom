@@ -9,5 +9,11 @@ namespace DungeonsOfDoom
         public Skeleton() : base(5)
         {
         }
+
+        public override void Attack(Character opponent)
+        {
+            if (opponent.Health < 30)
+                opponent.Health -= 5;
+        }
     }
 }

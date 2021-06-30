@@ -10,6 +10,11 @@ namespace DungeonsOfDoom
         {
             Health = health;
         }
+
+        public virtual void Attack(Character opponent)
+        {
+            opponent.Health -= 10;
+        }
         public int Health { get; set; }
         public bool IsAlive { get { return Health > 0; } }
     }

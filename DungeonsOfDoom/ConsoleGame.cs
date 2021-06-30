@@ -130,6 +130,7 @@ namespace DungeonsOfDoom
             if (player.IsAlive && currentRoom.Item != null)
             {
                 player.Backpack.Add(currentRoom.Item);
+                currentRoom.Item.Use(player);
                 currentRoom.Item = null; // remove item from the room after it is picked up
             }
         }

@@ -10,7 +10,6 @@ namespace DungeonsOfDoom
     {
         Player player;
         Room[,] world;
-        Random random = new Random();
 
         public void Play()
         {
@@ -42,7 +41,7 @@ namespace DungeonsOfDoom
                 {
                     world[x, y] = new Room();
 
-                    int percentage = random.Next(0, 100);
+                    int percentage = RandomUtils.Percentage();
                     if (percentage < 5)
                         world[x, y].Monster = new Ogre();
                     else if (percentage < 10)

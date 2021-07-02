@@ -118,7 +118,7 @@ namespace DungeonsOfDoom
             if (monster != null)
             {
                 AttackResult result = monster.Attack(player);
-                Console.WriteLine($"Monster damaged player by {result.Damage}");
+                Console.WriteLine($"Monster ({result.Attacker.Health}) damaged player by {result.Damage}");
                 Console.ReadKey(true);
 
 

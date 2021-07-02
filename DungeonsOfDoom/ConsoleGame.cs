@@ -129,6 +129,7 @@ namespace DungeonsOfDoom
                     Console.ReadKey(true);
 
                 if (!monster.IsAlive)
+                    player.Backpack.Add(currentRoom.Monster);
                     currentRoom.Monster = null;
             }
 

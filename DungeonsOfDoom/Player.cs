@@ -12,12 +12,12 @@ namespace DungeonsOfDoom
         {
             X = x;
             Y = y;
-            Backpack = new List<Item>();
+            Backpack = new List<ILuggable>();
         }
 
 
         public int X { get; set; }
         public int Y { get; set; }
-        public List<Item> Backpack { get; set; }
+        public List<ILuggable> Backpack { get; set; }
     }
 }

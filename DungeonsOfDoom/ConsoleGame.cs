@@ -22,14 +22,14 @@ namespace DungeonsOfDoom
                 DisplayWorld();
                 DisplayStats();
                 AskForMovement();
-            } while (player.IsAlive);
+            } while (player.IsAlive && Monster.MonsterCount > 0);
 
             GameOver();
         }
 
         private void CreatePlayer()
         {
-            player = new Player(30, 0, 0);
+            player = new Player(100, 0, 0);
         }
 
         private void CreateWorld()
@@ -76,6 +76,7 @@ namespace DungeonsOfDoom
 
         private void DisplayStats()
         {
+            Console.WriteLine($"Monsters: {Monster.MonsterCount}");
             Console.WriteLine($"Health: {player.Health}");
             foreach (var item in player.Backpack)
             {
@@ -143,7 +144,11 @@ namespace DungeonsOfDoom
         private void GameOver()
         {
             Console.Clear();
-            Console.WriteLine("Game over...");
+
+            if (Monster.MonsterCount > 0)
+                Console.WriteLine("Game over...");
+            else
+                Console.WriteLine("Congrats on defeating all the sacry monsters in the dungeon!");
             Console.ReadKey();
             Play();
         }

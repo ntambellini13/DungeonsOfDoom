@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace DungeonsOfDoom.Core
+namespace DungeonsOfDoom.Core.Items
 {
     public interface ILuggable
     {

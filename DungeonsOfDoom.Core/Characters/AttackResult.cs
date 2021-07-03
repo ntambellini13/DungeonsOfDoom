@@ -1,8 +1,9 @@
-﻿using System;
+﻿using DungeonsOfDoom.Core.Characters;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace DungeonsOfDoom.Core
+namespace DungeonsOfDoom.Core.Characters
 {
     public class AttackResult
     {

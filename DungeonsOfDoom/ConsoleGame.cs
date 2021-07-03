@@ -1,4 +1,6 @@
 ﻿using DungeonsOfDoom.Core;
+using DungeonsOfDoom.Core.Characters;
+using DungeonsOfDoom.Core.Items;
 using System;
 using System.Collections.Generic;
 using System.Linq;

@@ -6,15 +6,6 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v3.1": {
-      "DungeonsOfDoom/1.0.0": {
-        "dependencies": {
-          "DungeonsOfDoom.Core": "1.0.0",
-          "Utils": "1.0.0"
-        },
-        "runtime": {
-          "DungeonsOfDoom.dll": {}
-        }
-      },
       "DungeonsOfDoom.Core/1.0.0": {
         "dependencies": {
           "Utils": "1.0.0"
@@ -31,11 +22,6 @@
     }
   },
   "libraries": {
-    "DungeonsOfDoom/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
     "DungeonsOfDoom.Core/1.0.0": {
       "type": "project",
       "serviceable": false,

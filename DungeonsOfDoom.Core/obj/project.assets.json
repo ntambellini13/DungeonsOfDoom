@@ -2,19 +2,6 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.1": {
-      "DungeonsOfDoom.Core/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
-        "dependencies": {
-          "Utils": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/DungeonsOfDoom.Core.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/DungeonsOfDoom.Core.dll": {}
-        }
-      },
       "Utils/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
@@ -28,11 +15,6 @@
     }
   },
   "libraries": {
-    "DungeonsOfDoom.Core/1.0.0": {
-      "type": "project",
-      "path": "../DungeonsOfDoom.Core/DungeonsOfDoom.Core.csproj",
-      "msbuildProject": "../DungeonsOfDoom.Core/DungeonsOfDoom.Core.csproj"
-    },
     "Utils/1.0.0": {
       "type": "project",
       "path": "../Utils/Utils.csproj",
@@ -41,7 +23,6 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "DungeonsOfDoom.Core >= 1.0.0",
       "Utils >= 1.0.0"
     ]
   },
@@ -53,11 +34,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Udemy Learning\\C# OOP\\DungeonsOfDoom\\DungeonsOfDoom\\DungeonsOfDoom.csproj",
-      "projectName": "DungeonsOfDoom",
-      "projectPath": "D:\\Udemy Learning\\C# OOP\\DungeonsOfDoom\\DungeonsOfDoom\\DungeonsOfDoom.csproj",
+      "projectUniqueName": "D:\\Udemy Learning\\C# OOP\\DungeonsOfDoom\\DungeonsOfDoom.Core\\DungeonsOfDoom.Core.csproj",
+      "projectName": "DungeonsOfDoom.Core",
+      "projectPath": "D:\\Udemy Learning\\C# OOP\\DungeonsOfDoom\\DungeonsOfDoom.Core\\DungeonsOfDoom.Core.csproj",
       "packagesPath": "C:\\Users\\ntamb\\.nuget\\packages\\",
-      "outputPath": "D:\\Udemy Learning\\C# OOP\\DungeonsOfDoom\\DungeonsOfDoom\\obj\\",
+      "outputPath": "D:\\Udemy Learning\\C# OOP\\DungeonsOfDoom\\DungeonsOfDoom.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -79,9 +60,6 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "D:\\Udemy Learning\\C# OOP\\DungeonsOfDoom\\DungeonsOfDoom.Core\\DungeonsOfDoom.Core.csproj": {
-              "projectPath": "D:\\Udemy Learning\\C# OOP\\DungeonsOfDoom\\DungeonsOfDoom.Core\\DungeonsOfDoom.Core.csproj"
-            },
             "D:\\Udemy Learning\\C# OOP\\DungeonsOfDoom\\Utils\\Utils.csproj": {
               "projectPath": "D:\\Udemy Learning\\C# OOP\\DungeonsOfDoom\\Utils\\Utils.csproj"
             }

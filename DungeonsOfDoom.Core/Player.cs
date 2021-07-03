@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DungeonsOfDoom
+namespace DungeonsOfDoom.Core
 {
-    class Player : Character
+    public class Player : Character
     {
         public Player(int health, int x, int y) : base(health)
         {

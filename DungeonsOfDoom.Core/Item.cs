@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DungeonsOfDoom
+namespace DungeonsOfDoom.Core
 {
-    abstract class Item : ILuggable
+    public abstract class Item : ILuggable
     {
         public Item(string name)
         {

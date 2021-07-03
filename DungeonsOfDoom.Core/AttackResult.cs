@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace DungeonsOfDoom
+namespace DungeonsOfDoom.Core
 {
-    class AttackResult
+    public class AttackResult
     {
         public AttackResult(Character attacker, Character opponent, int damage)
         {

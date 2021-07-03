@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Text;
 using Utils;
 
-namespace DungeonsOfDoom
+namespace DungeonsOfDoom.Core
 {
-    class Ogre : Monster
+    public class Ogre : Monster
     {
         public Ogre() : base("Ogre", RandomUtils.Percentage() < 50 ? 10 : 20)
         {

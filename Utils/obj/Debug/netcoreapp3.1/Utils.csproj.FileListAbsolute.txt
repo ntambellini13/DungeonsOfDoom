@@ -1,0 +1,8 @@
+D:\Udemy Learning\C# OOP\DungeonsOfDoom\Utils\bin\Debug\netcoreapp3.1\Utils.deps.json
+D:\Udemy Learning\C# OOP\DungeonsOfDoom\Utils\bin\Debug\netcoreapp3.1\Utils.dll
+D:\Udemy Learning\C# OOP\DungeonsOfDoom\Utils\bin\Debug\netcoreapp3.1\Utils.pdb
+D:\Udemy Learning\C# OOP\DungeonsOfDoom\Utils\obj\Debug\netcoreapp3.1\Utils.AssemblyInfoInputs.cache
+D:\Udemy Learning\C# OOP\DungeonsOfDoom\Utils\obj\Debug\netcoreapp3.1\Utils.AssemblyInfo.cs
+D:\Udemy Learning\C# OOP\DungeonsOfDoom\Utils\obj\Debug\netcoreapp3.1\Utils.csproj.CoreCompileInputs.cache
+D:\Udemy Learning\C# OOP\DungeonsOfDoom\Utils\obj\Debug\netcoreapp3.1\Utils.dll
+D:\Udemy Learning\C# OOP\DungeonsOfDoom\Utils\obj\Debug\netcoreapp3.1\Utils.pdb

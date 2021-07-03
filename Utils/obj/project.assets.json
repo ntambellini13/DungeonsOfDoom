@@ -1,30 +1,11 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {
-      "Utils/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
-        "compile": {
-          "bin/placeholder/Utils.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Utils.dll": {}
-        }
-      }
-    }
+    ".NETCoreApp,Version=v3.1": {}
   },
-  "libraries": {
-    "Utils/1.0.0": {
-      "type": "project",
-      "path": "../Utils/Utils.csproj",
-      "msbuildProject": "../Utils/Utils.csproj"
-    }
-  },
+  "libraries": {},
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": [
-      "Utils >= 1.0.0"
-    ]
+    ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
     "C:\\Users\\ntamb\\.nuget\\packages\\": {},
@@ -34,11 +15,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Udemy Learning\\C# OOP\\DungeonsOfDoom\\DungeonsOfDoom\\DungeonsOfDoom.csproj",
-      "projectName": "DungeonsOfDoom",
-      "projectPath": "D:\\Udemy Learning\\C# OOP\\DungeonsOfDoom\\DungeonsOfDoom\\DungeonsOfDoom.csproj",
+      "projectUniqueName": "D:\\Udemy Learning\\C# OOP\\DungeonsOfDoom\\Utils\\Utils.csproj",
+      "projectName": "Utils",
+      "projectPath": "D:\\Udemy Learning\\C# OOP\\DungeonsOfDoom\\Utils\\Utils.csproj",
       "packagesPath": "C:\\Users\\ntamb\\.nuget\\packages\\",
-      "outputPath": "D:\\Udemy Learning\\C# OOP\\DungeonsOfDoom\\DungeonsOfDoom\\obj\\",
+      "outputPath": "D:\\Udemy Learning\\C# OOP\\DungeonsOfDoom\\Utils\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -59,11 +40,7 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {
-            "D:\\Udemy Learning\\C# OOP\\DungeonsOfDoom\\Utils\\Utils.csproj": {
-              "projectPath": "D:\\Udemy Learning\\C# OOP\\DungeonsOfDoom\\Utils\\Utils.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
